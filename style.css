@@ -44,6 +44,7 @@ main{
 
 .hide nav{
     display: none;
+	
 }
 
 
@@ -229,7 +230,9 @@ button{
     width: 100%;
     position: fixed;
     z-index: 1000;
-    bottom: 0;
+/*bottom: 0;*/
+
+    font-size: 300%;
 }
 
     h1{
