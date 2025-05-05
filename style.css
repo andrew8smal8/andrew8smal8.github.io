@@ -227,18 +227,23 @@ button{
 
     .hide nav{
     display: block;
-    width: 100%;
+    width: 90%;
     position: fixed;
     z-index: 1000;
 /*bottom: 0;*/
 padding: 15px 30px
-    font-size: 300%;
+    font-size: 150%;
+	    
 }
 
     h1{
         display: none;
        margin-top: 15%;
             }
+	.glow-on-hover{
+     width: 90%;
+     font-size: 150%;
+}
 
     .books, .movies, .games, .travel, .cuisine, .users{
         width: 90%;
