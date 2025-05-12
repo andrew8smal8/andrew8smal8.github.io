@@ -807,7 +807,7 @@ const todos = [];
 addBtn.addEventListener('click', () => {
     const todoText = todoInput.value.trim();
     if (todoText === '') {
-        alert('Введите дело!');
+        alert('ENTER AN INPUT!');
         return;
     }
 
@@ -825,7 +825,7 @@ addBtn.addEventListener('click', () => {
 // Выбор случайного дела
 randomBtn.addEventListener('click', () => {
     if (todos.length === 0) {
-        alert('Список дел пуст!');
+        alert('LIST IS EMPTY #!');
         return;
     }
 
@@ -837,7 +837,7 @@ randomBtn.addEventListener('click', () => {
 // Очистка списка дел
 clearBtn.addEventListener('click', () => {
     if (todos.length === 0) {
-        alert('Список дел уже пуст!');
+        alert('LIST IS EMPTY!');
         return;
     }
 
@@ -850,7 +850,7 @@ clearBtn.addEventListener('click', () => {
     // Сбрасываем сообщение о случайном деле
     randomTodo.textContent = '';
 
-    alert('Список дел успешно очищен!');
+    alert('ALL LISTS ARE DELETED!');
 });
 
 
