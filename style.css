@@ -49,7 +49,7 @@ main{
 
 
 
-.movies, .games, .travel, .cuisine, .users, .books{
+.movies, .games, .travel, .cuisine, .users, .books, .songs{
 margin-top: 1%;
     backdrop-filter: blur(15px);
     width: 30%;
@@ -62,7 +62,7 @@ margin-top: 1%;
 }
 
 
-#randombook, #randommovie, #randomgame, #randomtravel, #randomcuisine, #white_for_users{
+#randombook, #randommovie, #randomgame, #randomtravel, #randomcuisine, #randomsong,  #white_for_users{
     border-radius: 10px;
     background: #f2ccff;
     padding: 1%;
@@ -246,7 +246,7 @@ padding: 15px 30px;
      font-size: 150%;
 }
 
-    .books, .movies, .games, .travel, .cuisine, .users{
+    .books, .movies, .games, .travel, .cuisine, .users, .songs{
     margin-top: 1%;
         width: 90%;
         margin-bottom: 20px; /* Добавляем отступ снизу */
